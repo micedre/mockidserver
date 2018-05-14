@@ -1,0 +1,12 @@
+package net.micedre.mockidserver.mockidserver;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class MockidserverApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(MockidserverApplication.class, args);
+	}
+}
